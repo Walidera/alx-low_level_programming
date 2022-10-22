@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+gcc -c $CFILE
+=======
+gcc -c $CFILE $FILE
+>>>>>>> 250cefd32798366f7138df31510f37af3049f5ed
