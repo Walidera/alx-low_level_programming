@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * main - tests function that prints p n
+ * main - Tests function that prints p n
+ * Description - Either positive no not
  * Return: 0
  */
+
 int main(void)
 {
 int i;
