@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "main.h"
 /**
  *_memcpy -   copy number bytes form adress "from" to adress "to"
@@ -23,3 +24,25 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	return (dest);
 }
+=======
+#include "main.h"
+
+/**
+ * *_memcpy - copies memory area
+ * @dest: memory area
+ * @src: source
+ * @n: length of src
+ *
+ * Return: pointer to dest.
+ */
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		dest[i] = src[i];
+	}
+	return (dest);
+}
+>>>>>>> 2642cb3c447a17b0fd3be154bd912e89f2d40bd9
